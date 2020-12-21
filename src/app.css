@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Langar&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@600&family=Langar&display=swap");
+
+.App {
+  height: 100vh;
+  text-align: center;
+  font-size: 35px;
+  margin-top: 0;
+  position: relative;
+  background-image: url("https://template.canva.com/EADaowkGaWo/1/0/400w-tzA8p3DOwPo.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+header {
+  color: #111;
+  opacity: 0.5;
+  font-family: "JetBrains Mono", monospace;
+}
+
+.container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  top: 50px;
+}
+
+.App-title {
+  font-size: 50px;
+  font-family: "Langar", cursive;
+  color: snow;
+}
+
+div > ul > li {
+  display: inline-block;
+  margin-right: 2%;
+}
+
+.deadline-input {
+  font-size: 25px;
+  margin: 5px;
+  color: white;
+  margin-top: 30px;
+  padding: 20px !important;
+}
+
+.deadline-input::placeholder {
+  color: black;
+  opacity: 0.4;
+}
+
+.deadline-input:focus {
+  width: 100% !important;
+  color: white;
+  background-color: inherit;
+}
+
+.clock-days > h3 {
+  font-weight: bold;
+  background-color: orange;
+  border-radius: 33px;
+  padding: 10px;
+  color: white;
+  text-align: center;
+}
+
+.clock-hours > h3 {
+  font-weight: bold;
+  background-color: white;
+  border-radius: 33px;
+  padding: 10px;
+  color: royalblue;
+  text-align: center;
+}
+
+.clock-minutes > h3 {
+  font-weight: bold;
+  background-color: green;
+  border-radius: 33px;
+  padding: 10px;
+  color: white;
+  text-align: center;
+}
+
+.clock-seconds > h3 {
+  font-weight: bold;
+  background-color: black;
+  border-radius: 33px;
+  padding: 10px;
+  color: white;
+  text-align: center;
+  font-size: 32px;
+}
+
+.anime:hover {
+  transition: all 0.5s ease-in-out;
+  transform: scale(1.1);
+}
+
+.btn:hover {
+  transition: all 0.5s ease-in-out;
+  transform: scale(1.1);
+  background-color: transparent !important;
+}
+
+.form__button {
+  margin: 20px 20px;
+  outline: none !important;
+  font-weight: 500;
+  letter-spacing: 1px;
+  font-size: 2.2rem;
+  border-radius: 33px;
+  background-color: crimson;
+  color: white;
+  padding: 10px;
+  width: 20vw;
+}
+.form__revert {
+  font-weight: 500;
+  outline: none !important;
+  font-size: 2.2rem;
+  letter-spacing: 1px;
+  border-radius: 33px;
+  background-color: rgb(37, 199, 132);
+  color: white;
+  width: 20vw;
+  padding: 10px;
+}
